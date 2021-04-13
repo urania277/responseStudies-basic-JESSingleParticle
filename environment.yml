@@ -6,6 +6,7 @@ dependencies:
   - matplotlib=3.3
   - bokeh=2.3
   - ipywidgets
+  - root=6.20.00
 #widgetsnbextension-3?
   - notebook=6.2
   - numpy=1.20
