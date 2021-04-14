@@ -1,14 +1,14 @@
-# Running on Binder:
+# Running on Binder (Recommended for Windows users):
 
 1. Klick here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teokem/responseStudies-alex-exook/HEAD)
 2. When the Binder server is running, before opening the jupyter notebook, start a terminal to extract and decrypt data.zip.
- * On the right there is a drop down menu called "New", click it and select "Terminal". A new browser tab will open with a command line.
- * Enter: `7z x data.zip` into the terminal. When promted, enter the password given to you by me. This will extract and decrypt the data for the notebook.
- * Close the terminal broswer tab.
+ * On the right there is a drop-down menu called "New", click it and select "Terminal". A new browser tab will open with a command line.
+ * Enter: `7z x data.zip` into the terminal. When prompted, enter the password given to you by me. This will extract and decrypt the data for the notebook.
+ * Close the terminal browser tab.
 3. Open the jupyter notebook and follow the instructions there
 
 # Running Locally (Linux):
-To run this notebook locally you will need Conda or miniconda, aswell as p7zip.
+To run this notebook locally you will need Conda or miniconda, as well as p7zip.
 * To install miniconda follow the instructions found here: https://docs.conda.io/en/latest/miniconda.html
 * To install p7zip do: `sudo apt-get install p7zip-full`
 
