@@ -12,18 +12,17 @@ To run this notebook locally you will need Conda or miniconda, aswell as p7zip.
 * To install miniconda follow the instructions found here: https://docs.conda.io/en/latest/miniconda.html
 * To install p7zip do: `sudo apt-get install p7zip-full`
 
-1. Clone this repository
- * `git clone https://github.com/teokem/responseStudies-alex-exook.git`
-2. Enter the newly cloned directory
- * `cd responseStudies-alex-exook`
-3. Download the encrypted data
- * `wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=19Dv4JkJEqi-tzT33wjAvtufNqcwi8Lr0' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=19Dv4JkJEqi-tzT33wjAvtufNqcwi8Lr0" -O data.zip && rm -rf /tmp/cookies.txt`
-4. Decrypt the encrypted data
- * `z x data.zip`
- * Enter the password
-6. Create the python environment using conda
- * `conda env create -f environment.yml`
-7. Activate the newly created environment
- * `conda activate responsePlotting`
-8. Launch the notebook, and follow the instructions there
- * `jupyter notebook`
+1. Clone this repository\
+`git clone https://github.com/teokem/responseStudies-alex-exook.git`
+3. Enter the newly cloned directory\
+`cd responseStudies-alex-exook`
+4. Download the encrypted data\
+`wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=19Dv4JkJEqi-tzT33wjAvtufNqcwi8Lr0' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=19Dv4JkJEqi-tzT33wjAvtufNqcwi8Lr0" -O data.zip && rm -rf /tmp/cookies.txt`
+5. Decrypt the encrypted data\
+`z x data.zip`
+6. Create the python environment using conda\
+`conda env create -f environment.yml`
+7. Activate the newly created environment\
+`conda activate responsePlotting`
+8. Launch the notebook, and follow the instructions there\
+`jupyter notebook`
