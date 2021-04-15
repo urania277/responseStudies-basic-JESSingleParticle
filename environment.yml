@@ -10,5 +10,4 @@ dependencies:
   - scipy=1.6
   - matplotlib=3.3
   - bokeh=2.3
-  - mplhep 0.2.18
-
+  - mplhep=0.2.18
