@@ -23,7 +23,7 @@ To run this notebook locally you will need Conda or miniconda, as well as p7zip.
 4. Download the encrypted data\
 `wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=19Dv4JkJEqi-tzT33wjAvtufNqcwi8Lr0' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=19Dv4JkJEqi-tzT33wjAvtufNqcwi8Lr0" -O data.zip && rm -rf /tmp/cookies.txt`
 5. Decrypt the encrypted data\
-`z x data.zip`
+`7z x data.zip`
 6. Create the python environment using conda\
 `conda env create -f environment.yml`
 7. Activate the newly created environment\
