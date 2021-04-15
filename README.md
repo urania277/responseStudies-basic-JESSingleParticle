@@ -3,11 +3,11 @@
 1. Klick here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teokem/responseStudies-alex-exook/HEAD)
  * The build takes a really long time ~10 min
  * If it gets stuck at "Successfully pushed XXXXX", refresh the page and it should find an already built image and launch within a minute
-3. When the Binder server is running, before opening the jupyter notebook, start a terminal to extract and decrypt data.zip.
+2. When the Binder server is running, before opening the jupyter notebook, start a terminal to extract and decrypt data.zip.
  * On the right there is a drop-down menu called "New", click it and select "Terminal". A new browser tab will open with a command line.
  * Enter: `7z x data.zip` into the terminal. When prompted, enter the password given to you by me. This will extract and decrypt the data for the notebook.
  * Close the terminal browser tab.
-4. Open the jupyter notebook and follow the instructions there
+3. Open the jupyter notebook and follow the instructions there
 
 # Running Locally (Linux):
 To run this notebook locally you will need Conda or miniconda, as well as p7zip.
