@@ -28,3 +28,13 @@ To run this notebook locally you will need Conda or miniconda, as well as p7zip.
 `conda activate responsePlotting`
 8. Launch the notebook, and follow the instructions there\
 `jupyter notebook`
+
+# Environment packages
+* The python and notebook packages are required to run the code in the current notebook format
+* ROOT is required to read and fit the data with the root framework tools developed at CERN
+* Numpy is used for the numpy array data structure
+* Pandas is used for the data frame data structure, which is crucial for keeping the different data series, and slices of data series organized
+* Scipy is used for curve fitting
+* Matplotlib is used for plotting
+* Bokeh is used for interactive plotting
+* Mplhep is required for the ATLAS experiment specific plot styling
