@@ -1,4 +1,4 @@
-name: responsePlotting
+name: responseStudies
 channels:
   - conda-forge
 dependencies:
