@@ -1,18 +1,18 @@
 # Response and Resolution Studies for the Trigger Level Analysis at the ATLAS Experiment
 ## Abstract
-When particles collide at the Large Hadron Collider, the invariant mass of new particles can be derived by detecting their decay products. The Trigger Level Analysis (TLA) at the ATLAS experiment uses partly reconstructed particle collision events for its analysis. The smaller data size allows TLA to obtain a much larger number of events and a smaller statistical uncertainty. This notebook presents the data processing and analysis used to plot the invariant mass response. The response is the particle mass as determined by particles simulated to interact with the detector, divided by the particle mass as determined by the same particles, without interaction with the detector. Doing this after each step of the TLA calibration allows us to see if any calibration step introduces signal-like features in the analysis. The insights gained from the response studies are also used to estimate the invariant mass resolution of the analysis and with that derive an optimal histogram binning.
+When particles collide at the Large Hadron Collider, the invariant mass of new particles can be derived by detecting their decay products. The Trigger Level Analysis at the ATLAS experiment uses partly reconstructed particle collision events for its analysis. The smaller data size allows the Trigger Level Analysis to obtain a much larger number of events and a smaller statistical uncertainty. This notebook presents the data processing and analysis used to plot the invariant mass response. The response is the ratio of invariant mass as determined by particles simulated to interact with the detector, divided by the invariant mass as determined by the same particles, without interaction with the detector. Doing this after each step of the Trigger Level Analysis calibration allows us to see if any calibration step introduces signal-like features in the analysis. The insights gained from the response studies are also used to estimate the invariant mass resolution of the analysis and with that derive an optimal histogram binning.
 
 ## Running on Binder (Recommended for Windows users):
 
 1. Klick here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teokem/responseStudies-alex-exook/HEAD)
  * The build takes a long time ~10 min
  * If it gets stuck at "Successfully pushed XXXXX", refresh the page and it should find an already built image and launch within a minute
-2. When the Binder server is running, before opening the jupyter notebook, start a terminal to extract and decrypt data.zip.
- * On the right there is a drop-down menu called "New", click it and select "Terminal". A new browser tab will open with a command line.
- * Enter: `7z x data.zip` into the terminal. When prompted, enter the password given to you by me. This will extract and decrypt the data for the notebook.
- * Close the terminal browser tab.
-3. Open the jupyter notebook `responseStudies.ipynb`, and follow the instructions there.
- * In the notebook, you can run each cell of code/text one by one by using `shift`+`enter`. This will give you a chance to read the text and understand the code. To run everything from top to bottom in one go, press :fast_forward: in the top toolbar to restart and run the whole notebook
+2. When the Binder server is running, before opening the jupyter notebook, go to the drop-down menu on the right called "New". Click it and select "Terminal". A new browser tab will open with a command line.
+3. Type `7z x data.zip` into the terminal (Copy-paste will not work). When prompted, enter the password given to you by me. This will extract and decrypt the data for the notebook.
+4. Close the terminal browser tab.
+5. Go back to the initial tab, open the jupyter notebook `responseStudies.ipynb`, and follow the instructions there.
+ * In the notebook, you can run each cell of code/text one by one by using `shift`+`enter`. This will give you a chance to read the text and understand the code.
+ * To run everything from top to bottom in one go, press :fast_forward: in the top toolbar to restart and run the whole notebook
 
 ## Running Locally (Linux):
 
