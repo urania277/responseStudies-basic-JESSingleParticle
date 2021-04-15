@@ -27,7 +27,7 @@ To run this notebook locally you will need Conda or miniconda, as well as p7zip.
 6. Create the python environment using conda\
 `conda env create -f environment.yml`
 7. Activate the newly created environment\
-`conda activate responsePlotting`
+`conda activate responseStudies`
 8. Open the notebook `responseStudies.ipynb`, and follow the instructions there\
 `jupyter notebook`
  * In the notebook, you can run each cell of code/text one by one by using `shift`+`enter`. This will give you a chance to read the text and understand the code. To run everything from top to bottom in one go, press :fast_forward: in the top toolbar to restart and run the whole notebook
