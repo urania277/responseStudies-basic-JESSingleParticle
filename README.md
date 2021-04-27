@@ -9,7 +9,7 @@ When particles collide at the Large Hadron Collider, the invariant mass of new p
  * The build takes a long time ~10 min
  * If it gets stuck at "Successfully pushed XXXXX", refresh the page and it should find an already built image and launch within a minute
 2. When the Binder server is running, before opening the jupyter notebook, go to the drop-down menu on the right called "New". Click it and select "Terminal". A new browser tab will open with a command line.
-3. Type `7z x data.zip` into the terminal (Copy-paste will not work). When prompted, enter the password given to you by me. This will extract and decrypt the data for the notebook.
+3. Type `7z x data.zip` into the terminal (Copy-paste will not work). When prompted, enter the password which I have emailed to you. This will extract and decrypt the data for the notebook. If you have trouble with this, email me at alexander.ekman@hep.lu.se
 4. Close the terminal browser tab.
 5. Go back to the initial tab, open the jupyter notebook `responseStudies.ipynb`, and follow the instructions there.
  * In the notebook, you can run each cell of code/text one by one by using `shift`+`enter`. This will give you a chance to read the text and understand the code.
