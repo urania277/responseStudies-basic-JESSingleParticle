@@ -2,9 +2,9 @@ name: responseStudies
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.9
   - notebook=6.2
-  - root=6.20.00
+  - root=6.28
   - numpy=1.20
   - pandas=1.2
   - scipy=1.6
